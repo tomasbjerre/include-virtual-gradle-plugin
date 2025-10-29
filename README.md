@@ -4,7 +4,17 @@
 
 A settings plugin. Apply it in `settings.gradle` and it will provide `includeVirtual` method. It:
 
-- Creates project folders, if they don't exist.
+- Creates project folders, if they does not exist.
 - Includes the projects, with `include`.
 
 Gradle 9 changed the behavior of `include` so that it now fails if the given project folder does not exist.
+
+Example:
+
+```groovy
+plugins {
+ id "se.bjurr.gradle.include-virtual" version "a.b.c"
+}
+
+includeVirtual "X-one", "X-two"
+```
