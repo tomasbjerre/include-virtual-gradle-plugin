@@ -1,0 +1,31 @@
+/**
+ * Used when working with this plugin.
+ */
+plugins {
+	id "groovy-gradle-plugin"
+	id "se.bjurr.gradle.bundle-jar" version "1.4.2"
+}
+
+repositories {
+	gradlePluginPortal()
+	mavenCentral()
+	mavenLocal()
+}
+
+java {
+	def javaVersion = JavaLanguageVersion.of(17)
+	withSourcesJar()
+	withJavadocJar()
+	toolchain {
+		languageVersion = javaVersion
+	}
+	sourceCompatibility = javaVersion
+	targetCompatibility = javaVersion
+}
+
+spotless {
+	groovyGradle {
+		target '*.gradle', '**/*.gradle'
+	}
+}
+processResources.dependsOn spotlessApply

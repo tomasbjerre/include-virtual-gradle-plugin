@@ -1,0 +1,15 @@
+
+.okhttpcache
+.vscode
+bin
+.classpath
+.project
+.settings
+.gradle
+build
+examples/*/gradle
+examples/*/gradlew
+examples/*/gradlew.bat
+examples/*/.gradle
+examples/*/build
+.idea
