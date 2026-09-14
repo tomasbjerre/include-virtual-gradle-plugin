@@ -3,7 +3,7 @@
  */
 plugins {
 	id "groovy-gradle-plugin"
-	id "se.bjurr.gradle.bundle-jar" version "2.1.2"
+	id "se.bjurr.gradle.bundle-jar" version "2.2.1"
 }
 
 repositories {
