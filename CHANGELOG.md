@@ -1,3 +1,8 @@
+## 1.1.1 (2026-09-20)
+
+### Dependency updates
+
+- update plugin se.bjurr.gradle.bundle-jar to v2.4.0 (#1) ([3db40](https://github.com/tomasbjerre/include-virtual-gradle-plugin/commit/3db40f2c96eefe0) renovate[bot])  
 ## 1.1.0 (2026-09-14)
 
 ### Features
