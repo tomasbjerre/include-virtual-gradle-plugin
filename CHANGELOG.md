@@ -1,3 +1,10 @@
+## 1.1.2 (2026-10-03)
+
+### Dependency updates
+
+- update plugin se.bjurr.gradle.bundle-jar to v2.4.4 (#4) ([51407](https://github.com/tomasbjerre/include-virtual-gradle-plugin/commit/514073fe66bfe6e) renovate[bot])  
+- update dependency gradle to v9.8.0 (#3) ([f862b](https://github.com/tomasbjerre/include-virtual-gradle-plugin/commit/f862b94823e8de0) renovate[bot])  
+- update plugin se.bjurr.gradle.bundle-jar to v2.4.3 (#2) ([80458](https://github.com/tomasbjerre/include-virtual-gradle-plugin/commit/804585e9e57dd56) renovate[bot])  
 ## 1.1.1 (2026-09-20)
 
 ### Dependency updates
