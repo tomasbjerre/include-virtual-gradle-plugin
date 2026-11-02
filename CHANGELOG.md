@@ -1,3 +1,9 @@
+## 1.1.3 (2026-10-20)
+
+### Dependency updates
+
+- update dependency gradle to v9.8.2 (#7) ([e6651](https://github.com/tomasbjerre/include-virtual-gradle-plugin/commit/e66510ec338e12b) renovate[bot])  
+- update dependency gradle to v9.8.1 (#6) ([340ec](https://github.com/tomasbjerre/include-virtual-gradle-plugin/commit/340ec8d43c54e0a) renovate[bot])  
 ## 1.1.2 (2026-10-03)
 
 ### Dependency updates
